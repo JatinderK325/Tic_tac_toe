@@ -1,0 +1,6 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 6rem); /* repeat col 3 times and each will be 6rem apart */
+    place-items: center;
+    justify-content: center; /* grid will be at center of the page */
+}
